@@ -1,0 +1,20 @@
+
+=== install llama-cpp-python (current interpreter (prebuilt CPU index)) ===
+C:\Users\Administrator\AppData\Local\Programs\Python\Python313\python.exe -m pip install --prefer-binary --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu llama-cpp-python
+Looking in indexes: https://pypi.org/simple, https://abetlen.github.io/llama-cpp-python/whl/cpu
+Collecting llama-cpp-python
+  Downloading llama_cpp_python-0.3.34-py3-none-win_amd64.whl (6.6 MB)
+     ---------------------------------------- 6.6/6.6 MB 2.0 MB/s  0:00:03
+Requirement already satisfied: typing-extensions>=4.5.0 in C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages (from llama-cpp-python) (4.15.0)
+Requirement already satisfied: numpy>=1.20.0 in C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages (from llama-cpp-python) (2.3.3)
+Collecting diskcache>=5.6.1 (from llama-cpp-python)
+  Using cached diskcache-5.6.3-py3-none-any.whl.metadata (20 kB)
+Requirement already satisfied: jinja2>=2.11.3 in C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages (from llama-cpp-python) (3.1.6)
+Requirement already satisfied: MarkupSafe>=2.0 in C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages (from jinja2>=2.11.3->llama-cpp-python) (3.0.2)
+Using cached diskcache-5.6.3-py3-none-any.whl (45 kB)
+Installing collected packages: diskcache, llama-cpp-python
+
+Successfully installed diskcache-5.6.3 llama-cpp-python-0.3.34
+
+import OK: 0.3.34
+download failed https://huggingface.co/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen3-0.6B-Q4_K_M.gguf: HTTP Error 404: Not Found
