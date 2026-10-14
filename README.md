@@ -45,8 +45,8 @@ Implemented and verified in the current codebase:
 
 ## Screenshots / Demo
 
-![HERO PAGE](docs/screenshots/git1.png "Landing Screen")
-![RESULT PAGE](docs/screenshots/git2.png "Result Screen")
+![HERO PAGE](ArabicNameStudio/docs/screenshots/git1.png "Landing Screen")
+![RESULT PAGE](ArabicNameStudio/docs/screenshots/git2.png "Result Screen")
 
 <!-- TODO: add real captures under docs/screenshots/ and reference them relatively, e.g.
 ![Gallery view](docs/screenshots/gallery.png)
